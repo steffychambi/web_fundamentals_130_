@@ -8,23 +8,23 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #028CF3;
   --secondary-color: #20CBC1;
-  --accent1-color: #2FEAA8; #28DAB5
+  --accent1-color: #2FEAA8; 
   --accent2-color: WHITE;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Gochi+Hand';
-  --paragraph-font: Ubuntu|Helvetica|sans-serif;
+  --heading-font:"Gochi Hand";
+  --paragraph-font:Ubuntu,Helvetica,sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #028CF3;  /* headlines on a white background */ 
   --headline-color-on-color: #28DAB5; /* headlines on a colored background */ 
   --paragraph-color-on-white: #20CBC1; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-color-on-color: #0d95d4; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #380dd4;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #398e94;
 }
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
