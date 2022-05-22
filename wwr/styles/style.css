@@ -61,7 +61,7 @@ footer {
 }
 .home-title {
     color: #072481fd;
-    font-family:"Gochi Hand";
+    font-family:"Gochi Hand",fantasy;
     font-size: 2em;
     margin-top: 10px;
     padding-top: 25px;
@@ -71,7 +71,7 @@ h4 {
 }
 .msg h2 {
     color:#11563ed2;
-    font-family:"Gochi Hand";
+    font-family:"Gochi Hand",fantasy;
 }
 .msg p {
     color:rgb(255, 255, 255);
