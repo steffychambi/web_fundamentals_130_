@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Open+Sans&display=swap');
 #content {
-    max-width: 1600px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 body {
@@ -43,9 +43,11 @@ nav {
     font-size: 1.2em;
     list-style-type: none;
     display: flex;
+    font-family: Coiny, fantasy;
 }
 #musicdirectorimage {
     width: 100%;
+    border: 30px solid #FF595E;
 }
 #hero {
     display: grid;
@@ -62,12 +64,108 @@ nav {
     grid-column: 3/4;
     grid-row: 5/6;
     margin-top: 100px;
-    background-color: #5b9caecb;
+    background-color: #096641;
+    text-align: center;
+    color:white;
+}
+#hero-msg h4{
+    padding-left: 40px;
+    padding-right:40px;
 }
 .home-title{
     text-align: center;
     font-family: Coiny, fantasy;
+    color:#000;
 }
 .home-grid h1{
     font-family: Coiny, fantasy;
+}
+.comment{
+text-align: center;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 1000px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font:  1.2em Open sans;
+  
+    /* Uniform text field size */
+    width: 950px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
+footer {
+    background-color:#8AC926;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
