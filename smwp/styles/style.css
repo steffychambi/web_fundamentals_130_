@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 body {
-    background-color: #FFCA3A; 
+    background: linear-gradient(55deg, #8c31d8 0%, #FFCA3A 51%, #8c31d8 150%);
     font-family:'Open sans',Helvetica,sans-serif;
     font-size: 30px;
     padding: 40px;
