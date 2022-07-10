@@ -58,9 +58,17 @@ nav {
     display: flex;
     font-family: Coiny, fantasy;
 }
-#musicdirectorimage {
+#musicdirectorimage, #chorus{
     width: 100%;
     border: 30px solid #FF595E;
+}
+.songlyrics-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.songs{
+    padding: 60px;
 }
 #hero {
     display: grid;
@@ -172,13 +180,13 @@ form {
     height: 10em;
   }
   
-  .button {
+  .button, .button1 {
     /* Align buttons with the text fields */
     padding-left: 90px;
   /* same size as the label elements */
   }
   
-  button {
+  button, .button1 {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
